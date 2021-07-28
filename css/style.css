@@ -3,6 +3,7 @@ body{
     font-family: 'Poppins', sans-serif; 
 }
 
+/* Header Costom Css Style */
 .bag-light{
     background-color: #264653;
 }
@@ -23,6 +24,16 @@ body{
 /* main css */
 
 .image img{
-    width: 355px;
-    padding: 20px;
+    width: 325px;
+}
+
+/* clients costom css */
+
+.clients-images img{
+    width: 150px;
+    height: 150px;
+ border-radius: 220px;
+}
+.client{
+color: #e76f51;
 }
