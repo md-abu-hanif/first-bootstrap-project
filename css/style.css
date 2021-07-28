@@ -19,3 +19,10 @@ body{
 .text-color{
     color: #b3bec2;
 }
+
+/* main css */
+
+.image img{
+    width: 355px;
+    padding: 20px;
+}

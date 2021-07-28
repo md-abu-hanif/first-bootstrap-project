@@ -24,7 +24,7 @@
     <!-------------------
                           Header Start 
                                      --------------------->
-    <header class="container  bag-light">
+    <header class="container-fluid bag-light">
 
         <!-- Nav Started -->
         <nav class="navbar navbar-expand-lg navbar-dark">
@@ -48,7 +48,7 @@
                             <a class="nav-link active" aria-current="page" href="#">Contact</a>
                         </li>
                         <li class="nav-item ms-lg-5 mx-lg-5">
-                            <button class="btn btn-color">Log Out</button>
+                            <button class="btn btn-color">Login</button>
                         </li>
                     </ul>
                 </div>
@@ -57,25 +57,110 @@
 
         <!-- Div Started -->
         <div class="m-5 row p-3">
-            <div class="text-color justify-content-center mt-lg-5 pt-lg-5 col-12 col-lg-6 align-items-center">
+            <div class="text-color justify-content-center mt-lg-5 pt-lg-5 row-col-1 col-lg-6 align-items-center">
                 <p><small>Computer-controlled digital transistorized with electronic advance</small></p>
                 <strong class="text-color-h">Honda CBR 300R</strong>
                 <p><small>Amet minim mollit non deserunt ullamco est sit aliqua
                         dolor do amet sint. Velit officia consequat duis enim velit
                         mollit. Exercitation veniam consequat sunt nostrud amet.</small>
                 </p>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-color" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Purchase
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">What do you think?</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <input placeholder="Write your Comment" type="text">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-success">Save Changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
-            <div class="col-12 col-lg-6 align-items-center">
+            <div class="row-cols-1 col-lg-6 align-items-center">
                 <img width="552" height="447" src=" images/header-bike.png" alt="">
             </div>
         </div>
 
     </header>
 
+    <!------------------------
+                                     Main Started  
+                                                     ----------------------->
+    <main>
+        <!-- Letest News Section -->
+
+        <section class="container" id="Shoes">
+            <h1 class=" text-center my-5"><strong>Latest News</strong></h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col rounded-3">
+                    <div class="card image shadow-lg border-0 h-100">
+                        <img src="images/bike-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title"><strong>Ducati XDIAVEL S-73</strong></h3>
+                            <p class="card-text">The new Ducati Monster has caught the attention and imaginations of
+                                bike enthusiasts all around Westminister, but how much does it cost? Below, you'll find
+                                the full range of Ducati Monster models, arranged by price;.</p>
+                        </div>
+                        <div class="m-3 border-0 card-footer">
+                            <button class="btn btn-color text-white">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card image shadow-lg border-0 h-100">
+                        <img src="images/bike-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title"><strong>Motorcycles & Scooters</strong></h4>
+                            <p class="card-text">When it comes to scooters vs motorcycles, motorcycles are usually
+                                harder to learn to ride but have larger engines and top speeds, while scooters are more
+                                fuel efficient, cheaper and have better maneuverability.</p>
+                        </div>
+                        <div class="m-3 border-0 card-footer">
+                            <button class="btn btn-color text-white">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card image shadow-lg border-0 h-100">
+                        <img src="images/bike-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title"><strong>2021 Honda CBR500R</strong></h3>
+                            <p class="card-text">The CBR500R is a sporty motorcycle that actually sports a lot of
+                                beginner features along with some good power and performance figures. For example, it
+                                has plenty of legroom, which is great for riders of any body type. It's also on the
+                                heavier side for a motorcycle.</p>
+                        </div>
+                        <div class="m-3 border-0 card-footer">
+                            <button class="btn btn-color text-white">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <h1>Hi friend I am Abu Hanif</h1>
 
+    <footer>
 
+    </footer>
     <!-- Script Stylesheet  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
