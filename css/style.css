@@ -41,3 +41,8 @@ color: #e76f51;
 .icon{
     color: orange;
 }
+
+/* Footer Costom Css  */
+.footer-bg{
+    background-color: #0b0d17;
+}
