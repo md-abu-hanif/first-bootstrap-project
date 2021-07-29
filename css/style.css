@@ -46,3 +46,28 @@ color: #e76f51;
 .footer-bg{
     background-color: #0b0d17;
 }
+
+/* Grayscale Custom Css  */
+.grayscale{
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.grayscale:hover{
+    filter: grayscale(0%);
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out;
+}
+
+.grayscale-middle:hover{
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out;
+    filter: grayscale(100%);
+}
+
+
+
+nav a:hover{
+    background-color: #e76f51;
+    border-radius: 10px;
+}
