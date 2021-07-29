@@ -3,6 +3,12 @@ body{
     font-family: 'Poppins', sans-serif; 
 }
 
+/* Nav Css  */
+nav a:hover{
+    background-color:#e76f51;
+    border-radius: 10px;
+}
+
 /* Header Costom Css Style */
 .bag-light{
     background-color: #264653;
@@ -67,7 +73,3 @@ color: #e76f51;
 
 
 
-nav a:hover{
-    background-color: #e76f51;
-    border-radius: 10px;
-}
